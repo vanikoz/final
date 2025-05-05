@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --background: hsl(21, 100%, 82%);
+    --second-background: #ffbe9b;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--background);
+    margin: 0;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 2em 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: (15, 15, 15, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+nav ul a{
+    color: #07001d;
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+nav ul a:hover{
+    opacity: 1;
+}
+.logo{
+    font-size: 2em;
+    color: #07001d;
+    font-weight: 800;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.logo:hover{
+    opacity: 1;
+}
+.btn{
+    padding: 0.5em 1em;
+    color: #07001d;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0,5em;
+    font-size: 1,1em;
+    border: 2px solid rgb(2, 1, 8);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #facaa3;
+    color: var(--second-backgroundbackground);
+}
+#menu{
+    color: white;
+    font-size: 3em;
+    display: none;
+}
+section{
+    min-height: 100vh;
+    padding: 5% 15%;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: rgb(5, 3, 24);
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5em;
+    max-width: 600px;
+}
+.info-box h1{
+font-size: 5em;
+font-weight: 500;
+}
+.info-box h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+.btn-box{
+    display: flex;
+    gap: 1em;
+}
+.btn-box .btn:nth-of-type(2){
+    background-color: #facaa3;
+    color: var(--background);
+}
+.btn-box .bth.btn:nth-of-type(2):hover{
+    background-color: var(--background);
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: var(--background);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom,);
+}
+.uno{
+    text-align: center;
+    color: #0c252c;
+    font-size: 40px;
+}
+.first{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.belif{
+    color:#0c252c ;
+    padding-top: 60px;
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+.opi{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.atti{
+    color:#0c252c ;
+    padding-top: 60px;
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+.ansaveh{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.what{
+    text-align: center;
+    color: #0c252c;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.panguna{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.pangalawa{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+
+}
+.pangatlo{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.pangapat{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.panglima{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.panganim{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.fourth{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.dos{
+    text-align: center;
+    color: #0c252c;
+    font-size: 40px;
+}
+.second{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.uhh{
+    text-align: center;
+    color: #0c252c;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.wanposter{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.awtline{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.layawt{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+.third{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.tres{
+    text-align: center;
+    color: #0c252c;
+    font-size: 40px;
+}
+.tres-analysis{
+    text-align: center;
+    color: #0c252c;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-left: 0;
+}
+.summary{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.summ-info{
+    text-align: left;
+    text-justify: newspaper;
+}
+.summ-info-aft{
+    text-align: left;
+    text-justify: newspaper;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.summ-info-be{
+    text-align: left;
+    text-justify: newspaper;
+    padding-bottom: 10px;
+}
+.summ-info-as{
+    text-align: left;
+    text-justify: newspaper;
+
+}
+.best{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.best-uno{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.best-dos{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.best-tres{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.weakness{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.weakness-uno{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.weakness-dos{
+    text-align: left;
+
+}
+.impact{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.impact-uno{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.impact-dos{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.reason{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.reason-uno{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.appendix{
+    text-align: left;
+    color: #0c252c;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.retention{
+    padding-top: 5px;
+    width: 400px;
+    height: 230px;
+}
+.reten-info{
+    padding-top: 5px;
+    
+}
+.interactions{
+    padding-top: 60px;
+    padding-bottom: 5px;
+    width: 400px;
+    height: 280px;
+}
+.interview{
+    padding-top: 60px;
+    padding-bottom: 5px;
+    width: 400px;
+    height: 280px;
+}
+.quatro{
+    text-align: center;
+    color: #0c252c;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.fourth{
+    text-align:center
+}
+.last{
+    text-align: center;
+    padding-left: 85px;
+    padding-bottom: 50px;
+}
+.pech{
+    text-align: center;
+    padding-left: 90px;
+}
+.teampura{
+    text-align: left;
+    color: #0c252c;
+    font-size: 40px;
+}
